@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XII TPM 1 - Portal Informasi</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f0f8ff; color: #333; }
+        header { background-color: #4db8ff; padding: 15px; text-align: center; color: white; }
+        header img { max-height: 80px; }
+        h1 { margin: 10px 0 0; }
+        nav { background-color: #87cefa; display: flex; justify-content: center; padding: 10px; flex-wrap: wrap; }
+        nav a { color: white; margin: 5px 15px; text-decoration: none; font-weight: bold; }
+        nav a:hover { text-decoration: underline; }
+        section { padding: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; background: white; }
+        table, th, td { border: 1px solid #ccc; }
+        th { background-color: #4db8ff; color: white; }
+        th, td { padding: 8px; text-align: center; }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; margin-top: 15px; }
+        .gallery img { width: 100%; height: 150px; object-fit: cover; border-radius: 8px; border: 2px solid #87cefa; transition: transform 0.3s ease; }
+        .gallery img:hover { transform: scale(1.05); }
+        footer { background-color: #4db8ff; text-align: center; padding: 10px; color: white; margin-top: 20px; }
+        @media (max-width: 600px) { table, th, td { font-size: 12px; } }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="logo.png" alt="Logo Teknik Pemesinan">
+    <h1>Kelas XII TPM 1</h1>
+    <p>Portal Informasi & Jadwal Pelajaran</p>
+</header>
+
+<nav>
+    <a href="#jadwal">Jadwal</a>
+    <a href="#pengumuman">Pengumuman</a>
+    <a href="#galeri">Galeri Foto</a>
+</nav>
+
+<section id="jadwal">
+    <h2>Jadwal Pelajaran</h2>
+    <table>
+        <tr><th>Hari</th><th>Waktu</th><th>Mata Pelajaran</th><th>Guru</th></tr>
+        <tr><td>Senin</td><td>07.15-08.00</td><td>Upacara Bendera</td><td>-</td></tr>
+        <tr><td>Senin</td><td>08.00-09.20</td><td>Bahasa Indonesia</td><td>Buk Rima</td></tr>
+        <tr><td>Senin</td><td>10.15-13.00</td><td>MPP</td><td>Pak Sadarman</td></tr>
+        <tr><td>Senin</td><td>13.45-16.00</td><td>PKK</td><td>Pak Sadarman</td></tr>
+        <tr><td>Selasa</td><td>07.15-10.15</td><td>GTM</td><td>Pak Farwis</td></tr>
+        <tr><td>Selasa</td><td>10.45-15.15</td><td>TPNK</td><td>Pak Farwis</td></tr>
+        <tr><td>Selasa</td><td>15.15-16.00</td><td>TPB</td><td>Pak Farwis</td></tr>
+        <tr><td>Rabu</td><td>07.15-10.15</td><td>TPB</td><td>Pak Farwis</td></tr>
+        <tr><td>Rabu</td><td>10.45-13.00</td><td>TPG</td><td>Pak Farwis</td></tr>
+        <tr><td>Rabu</td><td>13.45-16.00</td><td>TPF</td><td>Pak Farwis</td></tr>
+        <tr><td>Kamis</td><td>07.15-08.00</td><td>Kamis Religi</td><td>-</td></tr>
+        <tr><td>Kamis</td><td>08.00-10.00</td><td>AG</td><td>Buk Renata</td></tr>
+        <tr><td>Kamis</td><td>10.15-11.35</td><td>PP</td><td>Buk Putri</td></tr>
+        <tr><td>Kamis</td><td>11.35-13.00</td><td>BING</td><td>Mem Nandra</td></tr>
+        <tr><td>Kamis</td><td>13.45-16.00</td><td>MM</td><td>Buk Sariyati</td></tr>
+        <tr><td>Jum’at</td><td>08.00-09.20</td><td>TPF</td><td>Pak Farwis</td></tr>
+        <tr><td>Jum’at</td><td>09.20-10.30</td><td>KW</td><td>Buk Lindawati</td></tr>
+        <tr><td>Jum’at</td><td>10.45-12.00</td><td>BING</td><td>Mem Nandra</td></tr>
+    </table>
+</section>
+
+<section id="pengumuman">
+    <h2>Pengumuman</h2>
+    <ul>
+        <li>Senin depan tidak ada upacara, langsung masuk jam pertama.</li>
+        <li>Bawa perlengkapan praktek lengkap pada hari Rabu.</li>
+    </ul>
+</section>
+
+<section id="galeri">
+    <h2>Galeri Foto</h2>
+    <div class="gallery">
+        <img src="image/foto1.jpeg" alt="Kegiatan 1">
+        <img src="image/foto2.jpeg" alt="Kegiatan 2">
+        <img src="image/foto3.jpeg" alt="Kegiatan 3">
+        <img src="image/foto4.jpeg" alt="Kegiatan 4">
+        <img src="image/foto5.jpeg" alt="Kegiatan 5">
+        <img src="image/foto6.jpeg" alt="Kegiatan 6">
+        <img src="image/foto7.jpeg"
+alt="kegiatan 7">
+        <img src="image/foto8.jpeg"
+alt="kegiatan 8">
+        <img src="image/foto9.jpeg"
+alt="kegiatan 9">
+        <img src="image/foto10.jpeg"
+alt="kegiatan 10">
+        <img src="image/foto11.jpeg"
+alt="kegiatan 11">
+        <img src="image/foto12.jpeg"
+alt="kegiatan 12">
+    </div>
+</section>
+
+<footer>
+    &copy; 2025 XII TPM 1 - Teknik Pemesinan
+</footer>
+
+</body>
+</html>
